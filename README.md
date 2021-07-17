@@ -36,7 +36,7 @@ Install sensor requirements: (reboot necessary)
 `sudo apt-get install i2c-tools`
 
 Install pip requirements:
-`pip install -r requirements.txt`
+`pip3 install -r requirements.txt` #pip is not supported now and Django will give error while installing
 
 Install node:
 `curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -`
